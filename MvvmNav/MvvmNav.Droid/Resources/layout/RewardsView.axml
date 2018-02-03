@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <TextView
+            android:text="Rewards"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+        <Button
+            android:text="Reward Detail by Url"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            local:MvxBind="Click ShowRewardDetailByUrl" />
+        <Button
+            android:text="Reward Detail"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            local:MvxBind="Click ShowRewardDetail" />
+    </LinearLayout>
+</RelativeLayout>
