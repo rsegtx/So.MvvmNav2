@@ -28,14 +28,14 @@ namespace MvvmNav.Core.ViewModels
             _navigationService = navigationService;
         }
 
-        public new void Init(string id)
-        {
-            if (!string.IsNullOrWhiteSpace(id))
-            {
-                if (int.TryParse(id, out _rewardId))
-                    RaiseAllPropertiesChanged();
-            }
-        }
+        //public new void Init(string id)
+        //{
+        //    if (!string.IsNullOrWhiteSpace(id))
+        //    {
+        //        if (int.TryParse(id, out _rewardId))
+        //            RaiseAllPropertiesChanged();
+        //    }
+        //}
 
         public override void Prepare(Parameteres parameter)
         {

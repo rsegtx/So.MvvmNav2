@@ -14,4 +14,7 @@
     <PackageReference Include="MvvmCross" Version="5.6.3" />
   </ItemGroup>
     
+  <ItemGroup>
+    <Folder Include="Mvvm\" />
+  </ItemGroup>
 </Project>
